@@ -1,14 +1,4 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-
-/* ═══════════════════════════════════════════════════════════════
-   PULKIT J — MUSICAL PORTFOLIO
-   Concept: High-fashion editorial meets analogue recording studio
-   Theme: Warm ivory / deep charcoal / electric amber — LIGHT mode
-   Typography: Cormorant Garamond (editorial serif) + JetBrains Mono
-   Layout: Tape-reel sidebar nav, full-bleed typographic hero,
-           music staff notation background, fader/knob interactions
-═══════════════════════════════════════════════════════════════ */
-
 const FONTS = `@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=JetBrains+Mono:wght@300;400;500&display=swap');`;
 
 const GLOBAL_CSS = `
@@ -908,8 +898,6 @@ function ContactPage() {
   const socials = [
     {label:'Email', val:'contact@pulkitj.com', href:'mailto:contact@pulkitj.com', sym:'@'},
     {label:'Instagram', val:'@pulkitj', href:'https://instagram.com', sym:'◈'},
-    {label:'YouTube', val:'Pulkit J', href:'https://youtube.com', sym:'▷'},
-    {label:'Twitter/X', val:'@pulkitj', href:'https://twitter.com', sym:'✦'},
   ];
 
   return (
