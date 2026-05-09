@@ -453,12 +453,8 @@ function Nav({page, onNav}) {
 function HomePage({onNav}) {
   const [lyricIdx, setLyricIdx] = useState(0);
   const snippets = [
-    { text: 'Echoes in the dark, calling out your name', song: 'Echoes in the Dark' },
-    { text: 'दिल की बातें कह दूं तुझे', song: 'Dil Ki Baatein' },
-    { text: 'Time stands still when you are near', song: 'Midnight Conversations' },
-    { text: 'Watch us turn from dust to gold', song: 'Golden Hour' },
-    { text: 'In the chaos I find peace', song: 'City Lights' },
-    { text: 'हर मुश्किल के पार', song: 'अपना वक्त' },
+    { text: 'Ab dil hai khali, bilkul khali', song: 'Khali' },
+    { text: 'That country’s calling me back to you', song: 'Calling Me Back' },
   ];
 
   useEffect(()=>{
